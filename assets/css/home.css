@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: #494ddb;
+}
+
+#contact-container-list {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 34%;
+}
+
+.contact {
+    /* border: 1px solid black; */
+    width: 347px;
+    height: 29px;
+    color: white;
+    background-color: rgb(15, 209, 15);
+    margin-bottom: 2%;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+
+.contact:hover {
+    transform: scale(1.2);
+    background-color: rgb(31, 100, 31);
+}
+
+.contact p {
+    display: inline-block;
+    /* margin-left: 2%; */
+    position: relative;
+    top: 20%;
+}
+
+.contact-name {
+    margin: 0% 0% 0% 2%;
+}
+
+.contact-ph {
+    position: relative;
+    margin: 0% 3% 0% 0%;
+    /* left: 23%; */
+    float: right;
+    /* margin: 0%; */
+    margin-right: 11%;
+}
+
+#enter-contact {
+    display: inline-block;
+    position: relative;
+    left: 36%;
+    margin-top: 2%;
+}
+
+#enter-contact button {
+    background-color: #494ddb;
+    color: white;
+}
+
+.contact i {
+    position: relative;
+    top: 18%;
+    left: 2%;
+}
+
+.delete-button {
+    display: inline-block;
+    position: relative;
+    left: 31%;
+    top: 21%;
+    float: right;
+}
+
+.delete-button a {
+    position: relative;
+    top: 0%;
+    display: inline-block;
+}
+
+.delete-button a i {
+    color: white;
+    background-color: red;
+}
